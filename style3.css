@@ -1,0 +1,383 @@
+.section1{
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 700px;
+    background-image: url(images/pngtree-aesthetic-food-arrangement-on-yellow-background-–-exceptional-quality-pi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.hamburger-image{
+    display:none;
+}
+.nav-menu{
+    background-color: #33333300;
+    color: rgb(238, 231, 231);
+    position: absolute;
+    top: 50px;
+    width: 100%;
+} 
+    
+.nav-menu li{
+    padding: 20px;
+    
+}
+.nav-menu a{
+    color:rgb(34, 33, 33);
+    text-decoration: none;
+}
+.nav-menu a:hover{
+    font-size: 19px;
+}
+.navigation{
+    margin-top: 30px;
+    text-align: center;
+}
+.navigation h2{
+    font-size: 20px;
+    position: relative;
+    bottom: 1px;
+    color: rgb(51, 38, 18);
+}
+.div1 h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-left: 70px;
+    padding-top: 180px;
+}
+.div1 p{
+    margin-left: 73px;
+    position: relative;
+    bottom: 30px;
+    padding-top: 30px;
+}
+.div2 button{
+    width: 200px;
+    height: 32px;
+    background-color: rgb(212, 10, 10);
+    color: white;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.281);
+    bottom: 30px;
+    margin-left: 80px;
+    cursor: pointer; 
+}
+.section2 h1{
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+.section2 img{
+    border-radius: 20px;
+    cursor: pointer;
+    height: 180px;
+    width: 260px;
+}
+.div3{
+    margin-left: 50px;
+    display: flex;
+    padding-top: 50px;
+    gap: 0.01px;   
+}
+.div3 img{
+    width: 200px;
+}
+.div3 p{
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(19, 18, 16);
+    cursor: pointer;
+    position: relative;
+    right: 170px;
+    padding-top: 60px;
+}
+.section2 img:hover{
+    opacity: 60%;
+}
+.div6{
+    margin-left: 50px;
+}
+.div7{
+    margin-left: 40px;
+}
+.div7a{
+    margin-left: 20px;
+}
+.section3 h1{
+    margin-left: 130px;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+.div8{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 20px;
+    color: red;
+    font-weight: bold;
+    margin-left: 50px;
+    font-style: italic;
+    position: relative;
+    bottom: 20px;
+}
+.div9{
+    position: relative;
+    left: 40px;
+    bottom:30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.div10{
+    display: flex;
+    margin-left: 50px;
+    gap: 80px;
+    position: relative;
+    right: 20px;
+    bottom: 30px;
+}
+.div10 img{
+    width: 900px;
+    border-radius: 20px;
+}
+.div10 button{
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(189, 9, 9);
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+}
+.section4 h1{
+    text-align: center;
+    padding-top: 40px;
+    text-decoration: underline;
+}
+.section4 div{
+    text-align: center;
+    letter-spacing: 5px;
+    padding-top: 10px;
+}
+footer{
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 40px;
+    background-color: rgb(238, 172, 87);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+footer p{
+    text-align: center;
+    color: rgb(97, 93, 93);
+}
+.div11{
+    margin-left: 700px;
+    position: relative;
+    bottom: 210px;
+}
+@media (max-width:851px) {
+    .section1{
+        width: auto;
+        height: 500px;
+        background-image: url("images/pngtree-aesthetic-food-arrangement-on-yellow-background-–-exceptional-quality-pi.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+    }
+   .hamburger-image{
+    display: block;
+    width: 30px;
+   }
+   .hamburger-image:hover{
+    width: 32px;
+   }
+.navigation{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 250px;
+    margin-left: 70px;
+    height: 30px;
+    background-color: rgba(167, 104, 42, 0.486);
+    padding-bottom: 8px;
+    position: relative;
+    bottom: 40px;
+    
+}
+.navigation h2{
+    font-size: 14px;
+    text-align: center;
+}
+.nav-menu{
+    display: none;
+    flex-direction: column;
+    background-color:green(0,0,0,0.9);
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    /* text-align: center; */
+    z-index: 100;
+    padding: 10px 0;
+    margin-right: 70px;
+    background-color: rgba(70, 53, 42, 0.678);
+    width: 420px;
+    height: 760px;
+    font-weight: bold;
+}
+.nav-menu ul{
+    list-style-type: none;
+}
+.nav-menu a{
+    color: white;
+    line-height: 50px;
+}
+.nav-menu.active{
+    display:flex;
+}
+.hamburger-image{
+    display: block;
+    cursor: pointer;
+    width: 30px;
+    position: relative;
+    z-index: 200;
+    position: fixed;
+}
+.nav-menu{
+    border-radius: 2px solid red;
+    position: fixed;
+}
+.nav-menu.show{
+    display: flex;
+}
+.nav-menu li{
+    padding: 10px;
+}
+.toggle{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+.div1 h1{
+    font-size: 25px;
+    position: relative;
+    bottom: 30px;
+}
+.div1{
+    position: relative;
+    bottom: 170px;
+    right: 40px;
+}
+.div1 p{
+    margin-top: 100px;
+}
+.div2 button{
+    position: relative;
+    bottom: 200px;
+    right: 50px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 12px;
+    width: 150px;
+    height: 25px;
+}
+.div2 button:hover{
+    width: 170px;
+    height: 30px;
+    background-color: rgb(116, 23, 23);
+    font-weight: bolder;
+    color: rgb(209, 199, 199);
+}
+.div3{
+    display: grid;
+}
+.div3 img{
+    width: 300px;
+}
+.div3 p{
+    margin-left: 250px;
+    position: relative;
+    bottom: 170px;
+}
+.div6{
+    position: relative;
+    left:-130px;
+}
+.div7a{
+    position: relative;
+    left: -150px;
+}
+.div7{
+    position: relative;
+    left: -140px;
+}
+.section3{
+    display: block;
+}
+.section3 h1{
+    position: relative;
+    bottom: 130px;
+}
+.div8{
+    position: relative;
+    bottom: 150px;
+    font-size: 12px;
+}
+.div9{
+    position: relative;
+    font-size: 13px;
+    bottom: 160px;
+}
+.div10{
+    display: block;
+}
+.div10 img{
+    width: 300px;
+    position: relative;
+    bottom: 120px;
+}
+.div10 p{
+    font-size: 11px;
+    position: relative;
+    bottom: 120px;
+}
+.div10 button{
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+    position: relative;
+    bottom: 120px;
+}
+.section4{
+    position: relative;
+    bottom: 140px;
+}
+
+}
+@media(min-width: 1280px){
+     .navigation{
+        border: 1px solid black;
+        height: 30px;
+        border-radius: 20px;
+        width: 350px;
+        margin-left: 500px;
+        background-color: rgba(167, 104, 42, 0.349);;
+
+     }
+     .navigation h2{
+       position: relative;
+       bottom: 10px;
+     }
+     .div10 button{
+        margin-top: 130px;
+        position: relative;
+        right: 505px;
+        width: 300px;
+     }
+}
+@media(min-width:852px){
+    .nav-menu ul{
+        margin-left: 445px;
+        display: flex;
+        gap: 40px;
+        padding-top: 20px;
+        list-style-type: none;
+    }
+}

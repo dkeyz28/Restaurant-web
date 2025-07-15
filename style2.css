@@ -1,0 +1,46 @@
+body{
+    
+    background-color: #a9d7e9;
+}
+h1{
+    font-size: 48px;
+    text-align: center;
+    
+    
+}
+p{
+    font-size: 22px;
+    text-align: center;
+}
+.div2{
+    
+    display: block;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+.div1{
+    margin: auto;
+    width: 400px;
+    background-color: #f3f3f3;
+    border-radius: 7px;
+    padding: 20px 20px 30px 30px;
+}
+.div3{
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.submit{
+    margin-left:130px;
+}
+    button{
+        width: 80px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: rgb(109, 109, 245);
+        border-color:  rgb(109, 109, 245);
+        color: white;
+    }

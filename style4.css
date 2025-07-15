@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    background-image: url(images\ \(5\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: rgb(231, 98, 98);
+}
+button{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(170, 15, 15);
+    border: 1px solid rgb(180, 18, 18);
+    box-shadow: 0 0 10px rgb(27, 9, 9), 0 0 20px rgb(46, 9, 9), 0 030px rgba(160, 34, 34, 0.212);
+    color: white;
+    font-weight: bold;
+}
+.div2{
+    color: rgb(44, 41, 41);
+}
+h2{
+    color: rgb(167, 31, 31);
+    box-shadow: 0 0 10px rgb(27, 9, 9), 0 0 20px rgb(46, 9, 9), 0 030px rgba(160, 34, 34, 0.212);
+}
+ul{
+    list-style: none;
+    color: rgb(37, 36, 36);
+}
+.div5{
+    padding-top: 70px;
+}
+ol{
+    list-style: none;
+    color: rgb(37, 37, 37);
+}
