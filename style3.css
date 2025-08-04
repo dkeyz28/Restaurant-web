@@ -175,10 +175,11 @@ footer p{
 @media (max-width:851px) {
     .section1{
         width: auto;
-        height: 500px;
+        height: 220px;
         background-image: url("images/pngtree-aesthetic-food-arrangement-on-yellow-background-–-exceptional-quality-pi.jpg");
         background-repeat: no-repeat;
         background-size: contain;
+        overflow: scroll;
         
     }
    .hamburger-image{
@@ -266,7 +267,7 @@ footer p{
     right: 40px;
 }
 .div1 p{
-    margin-top: 100px;
+    /* margin-top: 60px; */
 }
 .div2 button{
     position: relative;
@@ -345,9 +346,18 @@ footer p{
     position: relative;
     bottom: 120px;
 }
+.div10 button:hover{
+    width: 130px;
+    height: 40px;
+    background-color: rgb(134, 8, 8);
+    color: rgb(163, 158, 158);
+}
 .section4{
     position: relative;
     bottom: 140px;
+}
+.image14{
+    float: right;
 }
 
 }
